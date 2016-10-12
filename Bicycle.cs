@@ -10,14 +10,14 @@ namespace ConsoleApplication2
     {
         public string brand { get; set; }
         public int price { get; set; }
-        public int gears { get; set; }
+        public int gearsmeh { get; set; }
         public string color { get; set; }
         public Bicycle(string brand, int price, int gears, string color)
         {
             this.brand = brand;
             this.price = price;
             this.color = color;
-            this.gears = gears;
+            this.gears = gearsmeh;
 
         }
     }
